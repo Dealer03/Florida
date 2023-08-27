@@ -1,13 +1,143 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn {
+  position: absolute;
+  width: 300px;
+  left: 20px
+}
+
+.col {
+  display: grid;
+  flex-direction: row;
+  gap: 1em;
+}
+
+.container {
+  display: flex;
+  flex-basis: 100%;
+  min-width: 100;
+  padding-bottom: min(10vm, 450px);
+}
+
+.nav-item:hover {
+  background-color: gold;
+}
+
+.row {
+  padding: 25px;
+}
+
+a[target="_blank"]::after {
+  content: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAQElEQVR42qXKwQkAIAxDUUdxtO6/RBQkQZvSi8I/pL4BoGw/XPkh4XigPmsUgh0626AjRsgxHTkUThsG2T/sIlzdTsp52kSS1wAAAABJRU5ErkJggg==");
+  margin: 0px 3px 0px 5px;
+}
+
+#incomeLvl {
+  text-align: center;
+}
+
 header {
+  display: flex;
+  flex-basis: 100%;
+  background-color: darkred;
+  -webkit-text-fill-color: aliceblue; 
+  gap: 1em;
+}
+
+footer {
   background-color: darkred;
   -webkit-text-fill-color: aliceblue;
-  max-width: 0 2em;
+  gap: 1em;
+}
+
+form {
+  background-color: lightgray;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+h3 {
+  text-align: center;
+}
+
+h6 {
+  text-align: center;
 }
 
 img {
-  max-width:100%;
+  float: left;
+  padding-top: 10px;
+  padding-right: 10px;
+}
+
+section {
+  display: flex;
+  gap: 1em;
+  padding-top: 50px;
+}
+
+table {
+  width: 100%;
+  padding: 5px;
+}
+
+table,
+th {
+  border: 1px solid;
+}
+
+table td {
+  border: 1px solid;
+}
+
+#banner {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  -webkit-text-fill-color: gold;
+  font-size: 48px;
+  font-weight: bolder;
+}
+
+#cityInfo,
+td {
+  text-align: center;
+}
+
+#col-rt {
+ padding-bottom: min(100%, 1000px);
+}
+
+#formContainer {
+  padding-bottom: 50px;
+}
+
+#headerP {
+  font-size: 24px;
+  font-weight: bolder;
+  font-style: italic;
+}
+
+#img-rt {
+  float: right;
+  padding: 15px;
+  padding-top: 30px;
+  border-radius: 20px;
+  width: 75%;
 }
 
 #introHeader {
-  background-color: darkred;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+#inner {
+  position: absolute;
+  bottom: 10px;
+  right: 25px;
+}
+
+#outer {
+  position: relative;
 }

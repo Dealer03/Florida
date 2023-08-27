@@ -1,147 +1,139 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tallahassee</title>
     <link rel="stylesheet" href="./css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-  </head>
-  <header>
-    <p id="topIntro">
-        A state of contrasts and diversity, where the sun shines on both natural wonders and cultural attractions. 
-        From the Everglades to the Space Coast, from historic St. Augustine to vibrant Miami, offers something for everyone. 
-        Florida's economy is one of the largest and most dynamic in the nation, driven by tourism, agriculture, aerospace, and arts and culture. 
-    </p>
+</head>
+<header>
+    <div id="introHeader" class="container-fluid">      
+        <p id="headerP">
+          <img src="./assets/images/OIP_flag.jpg" alt="Florida Flag">
+           A state of contrasts and diversity, where the sun shines on both natural wonders and cultural attractions. 
+           From the Everglades to the Space Coast, from historic St. Augustine to vibrant Miami, offers something for everyone. 
+           Florida's economy is one of the largest and most dynamic in the nation, driven by tourism, agriculture, aerospace, and arts and culture.
+        </p>
+          <div id="banner">
+            Florida State
+          </div>      
+    </div>
 </header>
-    <nav class="navbar" navbar-expand-lg data-bs-theme="dark">
-        <div class="container-fluid">
-            <h2><img id="seal" src="./assets/images/OIP.jpg" alt="Florida Seal">Florida "The Sunshine State"</h2>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./tallahassee.html">Tallahassee</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./miami.html">Miami</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./jacksonville.html">Jacksonville</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./contactForm.html">Contact Us</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-    </nav>
-  <body>
+<ul class="nav nav-tabs">
+    <li class="nav-item">
+      <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="./tallahassee.html">Tallahassee</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="./miami.html">Miami</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="./jacksonville.html">Jacksonville</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="./contactForm.html">Contact Us</a>
+    </li>
+  </ul>
+<body>
+    <div class="container text-start">
         <section>
-            <div class="container text-center">
-                <div class="row justify-content-start">
-                  <div class="col-8">
-                        <div>
-                            <img id="img-rt" src="./assets/images/kevin-dunlap-en1Q1HLMo_A-unsplash.jpg" alt="Florida State University">
-                        </div>
-                        <p>
-                          Tallahassee is the capital city of Florida and is located in the **Northwest region** of the state. 
-                          It was incorporated in **1825**¹. According to the U.S. Census Bureau, the population of Tallahassee city as of 2022 is **201,731**¹. 
-                          The city is classified as **urban**¹.
-                        </p>
-                        <p>
-                          The median household income (in 2021 dollars) in Tallahassee for 2017-2021 was **$49,077**¹. 
-                          According to Name Census, the average (or mean) household income in Tallahassee is **$73,485** with 5.74% of households classed as high income households (making $200,000+ per year)². 
-                          According to City-Data.com, the median household income in Tallahassee, FL in 2021 was **$51,224**, which was 23.1% less than the median annual income of $63,062 across the entire state of Florida⁶.
-                        </p>
-                        <aside id="incomeLvl">
-                        <caption>Median Household Income Level(2021)</caption> 
-                        <table>
-                           <tr>                                
-                                <th>Tallahassee</th>
-                                <th>VS</th>                                                             
-                                <th>Florida</th>                                                             
-                           </tr>
-                           <tr>                               
-                                <td>$51,224</td>
-                                <td>23.1% <</td>
-                                <td>$63,062</td>
-                           </tr>                          
-                        </table>
-                        </aside>                       
-                        <p>
-                            Source: Conversation with Bing, 8/24/2023
-                            (1) U.S. Census Bureau QuickFacts: Tallahassee city, Florida. https://www.census.gov/quickfacts/fact/table/tallahasseecityflorida/INC110221.
-                            (2) Tallahassee Demographics 2023 (Income, Population) - Name Census. https://namecensus.com/demographics/florida/leon-county/tallahassee/.
-                            (3) Tallahassee, FL - Profile data - Census Reporter. https://censusreporter.org/profiles/16000US1270600-tallahassee-fl/.
-                            (4) Tallahassee, Florida Population 2023 - World Population Review. https://worldpopulationreview.com/us-cities/tallahassee-fl-population.
-                            (5) Tallahassee, FL | Data USA. https://datausa.io/profile/geo/tallahassee-fl/.
-                            https://www.census.gov/quickfacts/fact/table/tallahasseecityflorida/INC110221.
-                            (6) Tallahassee, Florida Salary | PayScale. https://www.payscale.com/research/US/Location=Tallahassee-FL/Salary.. 
-                            
-                        </p>
-                  </div>
-                  <div class="col-4">
-                        <div>
-                            <h3>Tallahassee</h3>
-                            <h6>The State Capital</h6>
-                            <table id="cityInfo">
-                              <tr>
-                                    <td>Population</td>
-                                    <td>201,731</td>
-                              </tr>
-                              <tr>
-                                    <td>Classification</td>
-                                    <td>Urban</td>
-                              </tr>
-                              <tr>
-                                    <td>Motto</td>
-                                    <td>"Florida's Capital City"</td>
-                              </tr>
-                              <tr>
-                                    <td>Region</td>
-                                    <td>Northwest</td>
-                              </tr>
-                              <tr>
-                                    <td>County</td>
-                                    <td>Leon</td>
-                              </tr>
-                              <tr>
-                                    <td>Established</td>
-                                    <td>1824</td>
-                              </tr>
-                              <tr>
-                                    <td>Mayor</td>
-                                    <td>John Dailey (D)</td>
-                              </tr>
-                              <tr>
-                                    <td>Zip Code(s)</td>
-                                    <td>32300–32399</td>
-                              </tr>
-                              <tr>
-                                    <td>Area Code(s)</td>
-                                    <td>850</td>
-                              </tr>
-                              <tr>
-                                    <td>Website</td>
-                                    <td><a href="http://www.talgov.com/Main/Home" target="_blank">www.tal.gov</a></td>
-                              </tr>
-                            </table>
-                        </div>
-                </div>
-                </div>
-            </div>
+        <div class="row">
+        <div class="col">
+            <p>
+              <img id="img-rt" src="./assets/images/kevin-dunlap-en1Q1HLMo_A-unsplash.jpg" alt="Florida State University">
+              Tallahassee is the capital city of Florida and is located in the **Northwest region** of the state. 
+              It was incorporated in **1825**¹. According to the U.S. Census Bureau, the population of Tallahassee city as of 2022 is **201,731**¹. 
+              The city is classified as **urban**¹.
+            </p>
+            <p>
+              The median household income (in 2021 dollars) in Tallahassee for 2017-2021 was **$49,077**¹. 
+              According to Name Census, the average (or mean) household income in Tallahassee is **$73,485** with 5.74% of households classed as high income households (making $200,000+ per year)².
+              According to City-Data.com, the median household income in Tallahassee, FL in 2021 was **$51,224**, which was 23.1% less than the median annual income of $63,062 across the entire state of Florida⁶.
+            </p>
+            <aside id="incomeLvl">
+              <caption>Median Household Income Level(2021)</caption> 
+              <table>
+                 <tr>                                
+                      <th>Tallahassee</th>
+                      <th>VS</th>                                                             
+                      <th>Florida</th>                                                             
+                 </tr>
+                 <tr>                               
+                      <td>$51,224</td>
+                      <td>< 23.1%</td>
+                      <td>$63,062</td>
+                 </tr>                          
+              </table>
+              </aside>
+            <p>
+              Source: Conversation with Bing, 8/24/2023<br>
+              (1) U.S. Census Bureau QuickFacts: Tallahassee city, Florida. https://www.census.gov/quickfacts/fact/table/tallahasseecityflorida/INC110221.<br>
+              (2) Tallahassee Demographics 2023 (Income, Population) - Name Census. https://namecensus.com/demographics/florida/leon-county/tallahassee/.<br>
+              (3) Tallahassee, FL - Profile data - Census Reporter. https://censusreporter.org/profiles/16000US1270600-tallahassee-fl/.<br>
+              (4) Tallahassee, Florida Population 2023 - World Population Review. https://worldpopulationreview.com/us-cities/tallahassee-fl-population.<br>
+              (5) Tallahassee, FL | Data USA. https://datausa.io/profile/geo/tallahassee-fl/.
+              https://www.census.gov/quickfacts/fact/table/tallahasseecityflorida/INC110221.<br>
+              (6) Tallahassee, Florida Salary | PayScale. https://www.payscale.com/research/US/Location=Tallahassee-FL/Salary.. <br>
+              
+            </p>
+        </div>
+        <div class="col" id="col-rt">
+          <table id="cityInfo">
+            <h3>Tallahassee</h3>
+            <h6>The State Capital</h6>
+            <tr>
+                  <td>Population</td>
+                  <td>201,731</td>
+            </tr>
+            <tr>
+                  <td>Classification</td>
+                  <td>Urban</td>
+            </tr>
+            <tr>
+                  <td>Motto</td>
+                  <td>"Florida's Capital City"</td>
+            </tr>
+            <tr>
+                  <td>Region</td>
+                  <td>Northwest</td>
+            </tr>
+            <tr>
+                  <td>County</td>
+                  <td>Leon</td>
+            </tr>
+            <tr>
+                  <td>Established</td>
+                  <td>1824</td>
+            </tr>
+            <tr>
+                  <td>Mayor</td>
+                  <td>John Dailey (D)</td>
+            </tr>
+            <tr>
+                  <td>Zip Code(s)</td>
+                  <td>32300–32399</td>
+            </tr>
+            <tr>
+                  <td>Area Code(s)</td>
+                  <td>850</td>
+            </tr>
+            <tr>
+                  <td>Website</td>
+                  <td><a href="http://www.talgov.com/Main/Home" target="_blank">www.tal.gov</a></td>
+            </tr>
+          </table> 
+        </div>
+        </div>
         </section>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
-  </body>
-  <img id="contact" src="./assets/images/OIP_flag.jpg" alt="Florida Flag">
-  <footer>
-    <div id="callRon">
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous">
+    </script>    
+</body>
+<footer>
+    <div class="container text-start">
       <p>
         Office of Governor Ron DeSantis<br>
           State of Florida<br>
@@ -150,6 +142,7 @@
           Tallahassee, FL 32399-0001<br>
           (850) 717-9337, <a href="https://www.flgov.com/contact-governor-2/">www.flgov.com</a><br>
       </p>
-    </div>  
-  </footer>
+    </div>
+    <div id="outer"><img src="./assets/images/OIP_flag.jpg" alt="Florida Flag" id="inner"></div>
+</footer>
 </html>
