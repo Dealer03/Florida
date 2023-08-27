@@ -141,3 +141,7 @@ td {
 #outer {
   position: relative;
 }
+
+#footerContact {
+  padding-right: 500px;
+}
