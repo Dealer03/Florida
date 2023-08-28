@@ -8,18 +8,27 @@
   left: 20px
 }
 
-.col {
-  display: grid;
-  flex-direction: row;
-  gap: 1em;
+.main-content {
+  grid-column: 2/6;
+  padding: 3em;
 }
 
-.container {
-  display: flex;
-  flex-basis: 100%;
-  min-width: 100;
-  padding-bottom: min(10vm, 450px);
+.masthead,
+.mastfoot {
+  grid-column: span 8;
 }
+
+.sidebar {
+  grid-column: 6/8;
+  padding: 3em;
+}
+
+.site {
+    display: grid;
+    grid-template-columns: 1fr repeat(6, minmax(auto, 10em)) 1fr;
+    grid-template-rows: minmax(1em, auto) 1fr auto minmax(1em, auto);
+}
+
 
 .nav-item:hover {
   background-color: gold;
@@ -34,22 +43,27 @@ a[target="_blank"]::after {
   margin: 0px 3px 0px 5px;
 }
 
-#incomeLvl {
-  text-align: center;
+aside {
+  font-size: 24px;
+  font-style: italic;
+  padding: 1em;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  min-width: 100;
 }
 
 header {
-  display: flex;
-  flex-basis: 100%;
   background-color: darkred;
   -webkit-text-fill-color: aliceblue; 
-  gap: 1em;
 }
 
 footer {
   background-color: darkred;
   -webkit-text-fill-color: aliceblue;
-  gap: 1em;
 }
 
 form {
@@ -66,16 +80,18 @@ h6 {
   text-align: center;
 }
 
+
+
 img {
   float: left;
   padding-top: 10px;
   padding-right: 10px;
+  padding-bottom: 10px;
 }
 
-section {
-  display: flex;
-  gap: 1em;
-  padding-top: 50px;
+ol {
+  gap: 3em;
+  padding: 2em;
 }
 
 table {
@@ -94,7 +110,7 @@ table td {
 
 #banner {
   font-family:Georgia, 'Times New Roman', Times, serif;
-  text-align: center;
+  text-align: left;
   -webkit-text-fill-color: gold;
   font-size: 48px;
   font-weight: bolder;
@@ -105,9 +121,7 @@ td {
   text-align: center;
 }
 
-#col-rt {
- padding-bottom: min(100%, 1000px);
-}
+
 
 #formContainer {
   padding-bottom: 50px;
@@ -116,7 +130,6 @@ td {
 #headerP {
   font-size: 24px;
   font-weight: bolder;
-  font-style: italic;
 }
 
 #img-rt {
@@ -127,22 +140,20 @@ td {
   width: 75%;
 }
 
+#incomeLvl {
+  text-align: center;
+}
+
 #introHeader {
   flex-wrap: wrap;
   position: relative;
 }
 
-#inner {
+ #inner {
   position: absolute;
-  bottom: 10px;
-  right: 25px;
 }
 
-#outer {
-  position: relative;
+ #outer {
+  position: relative; 
 }
 
-#footerContact {
-  padding-right: 500px;
-  padding-bottom: 200px;
-}
