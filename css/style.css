@@ -145,8 +145,7 @@ td {
 }
 
 #introHeader {
-  flex-wrap: wrap;
-  position: relative;
+  justify-self: start;
 }
 
  #inner {
@@ -157,3 +156,12 @@ td {
   position: relative; 
 }
 
+.nav-tabs {
+  grid-column: span 8;
+  justify-self: start;
+  min-width: 600px;
+}
+
+nav {
+  align-items: start;
+}
